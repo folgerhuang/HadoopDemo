@@ -36,6 +36,5 @@ public class HotJobRun {
 		FileOutputFormat
 				.setOutputPath(job, f);
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
-
 	}
 }

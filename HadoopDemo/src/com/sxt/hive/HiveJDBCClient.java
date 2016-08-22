@@ -36,7 +36,6 @@ public class HiveJDBCClient {
 			res = statement.executeQuery(sql);
 			while (res.next()) {
 				System.out.println(res.getString(1));
-				
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
